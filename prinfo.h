@@ -1,4 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <assert.h>
+#include <stdbool.h>
 
+#include "draw_utils_interface.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+
+#include "errhand.h"
 
 void print_sdl_driver_info(FILE *stream, int num, const SDL_RendererInfo *info){
 	fprintf(stream, "\n---\n");
