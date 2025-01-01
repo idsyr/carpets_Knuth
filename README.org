@@ -15,5 +15,5 @@ chmod "a+x" build.sh
 #+end_src
 
 * usage
-- window screenshot (output/): ESC
-- close:                       PRTSC
+- window screenshot (output/): PRTSC
+- close:                       ESC
